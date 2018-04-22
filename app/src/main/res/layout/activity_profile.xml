@@ -1,73 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="egrb301juliet.talaria.ProfileActivity">
+    tools:context="egrb301juliet.talaria.ProfileActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tap on camera to choose profile picture"
-        android:textAlignment="center"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="170dp"
-            android:layout_height="170dp"
-            android:layout_centerHorizontal="true"
-            android:layout_margin="20dp"
-            android:background="@drawable/icon_camera"
-            android:scaleType="centerCrop" />
-
-        <ProgressBar
-            android:id="@+id/progressbar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:visibility="gone" />
-
-    </RelativeLayout>
 
     <EditText
-        android:id="@+id/editTextDisplayName"
+        android:id="@+id/editPatientName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Display Name" />
+        android:layout_weight="0.02"
+        android:ems="10"
+        android:hint="Enter Patient Name"
+        android:inputType="textPersonName"
+        android:text="Enter Full Patient Name" />
 
-    <TextView
-        android:id="@+id/textViewVerified"
+    <Spinner
+        android:id="@+id/spinnerRoomNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Verified"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        android:entries="@array/RoomNumber" />
 
     <Button
-        android:id="@+id/buttonSave"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonAddPatient"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/rounded_button_solid"
-        android:paddingLeft="55dp"
-        android:paddingRight="55dp"
-        android:text="Save"
-        android:textAllCaps="false" />
-
-
-
-
+        android:layout_weight="0.02"
+        android:text="Add Patient" />
 </LinearLayout>
