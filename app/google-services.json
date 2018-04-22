@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "835545824949",
+    "firebase_url": "https://talaria2-c4f7a.firebaseio.com",
+    "project_id": "talaria2-c4f7a",
+    "storage_bucket": "talaria2-c4f7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835545824949:android:45f985298f233e2b",
+        "android_client_info": {
+          "package_name": "egrb301juliet.talaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835545824949-pigt3sn1e489r6tc042r3k1k5uh3mdrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "egrb301juliet.talaria",
+            "certificate_hash": "1b9f394e7c1543084de15261728f0370f896716b"
+          }
+        },
+        {
+          "client_id": "835545824949-e6u5vi0ej81cq3rudbniapepb65q9fp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdBKNPdh5EvA0AFi_1fnep5tfdRWx4Otk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835545824949-e6u5vi0ej81cq3rudbniapepb65q9fp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
